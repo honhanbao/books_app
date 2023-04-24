@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #eceff2;
 }
 
 .App-logo {
@@ -36,3 +37,78 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Home page */
+
+.home_title{
+  color: #333;
+  /* background-color: #61dafb; */
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-top: 0;
+  padding: 10px;
+  /* border: 1px solid black; */
+  padding: 10px;
+}
+
+.home_content{
+  /* border: 1px solid black; */
+  color: #333;
+  font-size: 36px;
+  text-align: center;
+  /* background-color: #61dafb; */
+  margin: 0 auto;
+}
+
+.home_footer {
+  background-color: #eceff2;
+  color: black;
+  text-align: center;
+  /* position: fixed; */
+  left: 20;
+  bottom: 0;
+  width: 93%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: flex-end; /* align items to the right */
+  align-items: center;
+  background-color: #eceff2;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 30px;
+  font-size: 40px;
+  /* border: 1px solid black; */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #222129;
+  font-size: 30px;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.navbar a:first-child {
+  margin-left: 0; /* remove left margin from the first button */
+}
+
+.navbar a:last-child {
+  margin-right: 0; /* remove right margin from the last button */
+}
+
+.active-link {
+  color: red;
+  font-weight: bold;
+}
+

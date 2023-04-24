@@ -1,0 +1,18 @@
+Google books API:
+    https://developers.google.com/books/docs/v1/using
+To search a book:
+    https://www.googleapis.com/books/v1/volumes?q={QUERY}
+    Example:
+        https://www.googleapis.com/books/v1/volumes?q=Mathematics
+To limit results to NUMBER:
+    https://www.googleapis.com/books/v1/volumes?q={QUERY}&maxResults={MUNBER}
+    https://www.googleapis.com/books/v1/volumes?q=Mathematics&maxResults=20
+
+image: book.volumeInfo.imageLinks.thumbnail
+title: book.volumeInfo.title
+author: book.volumeInfo.authors
+date: book.volumeInfo.publishedDate
+selfLink: book.selfLink
+
+
+
