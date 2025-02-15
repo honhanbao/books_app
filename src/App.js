@@ -2,9 +2,9 @@
 import { BrowserRouter, NavLink, Routes, Route } from 'react-router-dom'
 import './App.css';
 import Home from './components/Home';
+import SearchResults from './components/SearchResults';
 import Cart from './components/Cart';
 import Checkout from './components/Checkout';
-import SearchResults from './components/SearchResults';
 import BookDetail from './components/BookDetail';
 import NoPage from './components/NoPage';
 
@@ -13,13 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <nav className="navbar" style = {{paddingBottom: '20'}}>
-        <NavLink 
-            to="/"
-            activeClassName="active-link"
-            activeStyle={{ color: 'red' }}
-            className="normal-link"
-            >Home
-        </NavLink>
+        <NavLink to="/">Home</NavLink>
         <NavLink to="/cart">Cart</NavLink>
         <NavLink to="/checkout">Checkout</NavLink>
       </nav>
